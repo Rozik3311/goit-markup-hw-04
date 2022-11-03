@@ -70,6 +70,7 @@ a {
 }
 .card-set-item{
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / (var(--items)));
+  margin-bottom: 94px;
 }
 /* CARD SET */
 
@@ -171,11 +172,33 @@ color: var(--accent-color);
 
 .middle-section{
   text-align: center;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
   background-color: #2F303A;
-  background-size: contain;
   padding: 200px 0;
-
+  background: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4));
+  background-image: url(../images/team-bg.jpg);
 }
+
+.hero-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  
+  background: #F5F4FA;
+  border-radius: 4px;
+}
+
+.icon-set{
+  
+  width: 70px;
+  height: 70px;
+  fill:var(--primary-text-color)
+}
+
 .hero-list{
   display: flex;
 }
@@ -236,6 +259,7 @@ display:flex ;
 }
 
 .hero-title {
+  padding-top: 30px;
   align-items: center;
   margin-bottom: 10px;
   font-size: 14px;
@@ -289,6 +313,7 @@ display:flex ;
 }
 
 .team-wrapper{
+  background-color: var(--white-color) ;
   padding-top: 30px;
   padding-bottom: 94px;
 }
@@ -314,6 +339,7 @@ display:flex ;
 }
 
 .team-text {
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
@@ -322,7 +348,68 @@ display:flex ;
   color: var(--title-text-color);
 }
 
+.socials-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 
+.socials-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #AFB1B8;
+}
+
+.socials-link:hover,
+.socials-link:focus {
+  background-color: #2196F3;
+  color: #fff;
+}
+
+.socials-icon{
+  fill: currentColor;
+}
+
+/* --- Clients --- */
+.clients-title{
+  padding-top: 94px;
+  margin-bottom: 50px;
+font-size: 36px;
+line-height: calc(42/36);
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+.clients-set{
+  display: flex;
+  justify-content: canter;
+  align-items: center;
+  padding-bottom: 94px;
+  gap: 30px;
+}
+
+.clients-icon{
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  fill:#AFB1B8;
+}
+
+.clients-icon:hover,
+.clients-icon:focus {
+  background-color: #fff;
+  border-color: #2196F3;
+  fill: #2196F3;
+}
 
 /*-------------------PAGE2-----------*/
 
