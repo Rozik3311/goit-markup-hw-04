@@ -145,6 +145,10 @@ color: var(--accent-color);
   color: var(--title-text-color);
 }
 
+.header-icon-mail{
+  fill: currentColor;
+}
+
 .header-mail:hover,
 .header-mail:focus {
   color: var(--accent-color);
@@ -156,6 +160,10 @@ color: var(--accent-color);
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+}
+
+.header-icon-tel{
+  fill: currentColor;
 }
 
 .header-tel:hover,
@@ -526,4 +534,36 @@ color: #212121;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-invitation{
+  height: 16px;
+  font-size: 14px;
+  line-height: calc(16/14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: var(--white-color);
+}
+
+.footer-icon{
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.footer-icon-set{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #AFB1B8;
+}
+
+.footer-icon-set:hover,
+.footer-icon-set:focus {
+  background-color: #2196F3;
+  color: #fff;
+}
+
 /* footer end */
