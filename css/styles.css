@@ -181,14 +181,13 @@ color: var(--accent-color);
 /*---------HERO--------*/
 
 .middle-section{
-  text-align: center;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/team-bg.jpg  );
   background-repeat: no-repeat;
+  text-align: center;
   background-position: left;
   background-size: cover;
   background-color: #2F303A;
   padding: 200px 0;
-  background: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4));
-  background-image: url(../images/team-bg.jpg);
 }
 
 .hero-icon{
@@ -325,6 +324,11 @@ display:flex ;
 .team-wrapper{
   background-color: var(--white-color) ;
   padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.card-set-item:hover{
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 .team {
@@ -467,6 +471,7 @@ color: #212121;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   border: none;
+  border-radius: 25px;
 }
 .product-wrapper{
   padding-top: 20px;
@@ -590,10 +595,11 @@ color: #212121;
   display: flex;
   gap: 10px;
   margin-top: 20px;
-  background-color: rgba(255, 255, 255, 0.1);
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
+
+}
+
+.socials-logo{
+  fill: var(--white-color);
 }
 
 .footer-icon-set{
